@@ -27,4 +27,5 @@ test("scoring Chance add all dice", () => {
   expect(checkDie("Twos", [2, 2, 6, 1, 1])).toBe(4);
   expect(checkDie("Threes", [3, 3, 6, 3, 1])).toBe(9);
   expect(checkDie("Fours", [4, 4, 6, 3, 1])).toBe(8);
+  expect(checkDie("Five", [4, 4, 6, 3, 1])).toBe(8);
 });
