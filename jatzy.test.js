@@ -5,7 +5,7 @@ function checkDie(category, numbersArray) {
 
   function dieRoll(category, number) {
     for (const die of numbersArray) {
-      if (die == number) {
+      if (die === number) {
         result += number;
       }
     }
