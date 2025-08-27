@@ -17,7 +17,7 @@ function checkDie(category, numbersArray) {
 
   return result;
 }
-
+//hehe
 test("scoring Chance add all dice", () => {
   expect(checkDie("Ones", [1, 1, 3, 4, 5])).toBe(2);
   expect(checkDie("Ones", [1, 1, 1, 1, 1])).toBe(5);
